@@ -14,7 +14,7 @@ services:
 
   # Servicio de Grafana y sus configs
   grafana:
-    image: grafana/grafana-enterprise:latest
+    image: grafana/grafana-oss:latest
     container_name: grafana ##Nombre del contenedor
     restart: unless-stopped
     volumes:
